@@ -1,0 +1,14 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="fuzhi">
+<g id="Group 3">
+<mask id="mask0_87_647" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="2" width="10" height="10">
+<path id="Clip 2" fill-rule="evenodd" clip-rule="evenodd" d="M0.0012207 2H10.0001V12H0.0012207V2Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_87_647)">
+<path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M8.99826 3.00006L9.00002 3.00172V10.9983L8.99826 11H1.00171L0.999951 10.9983V3.00172L1.00171 3.00006H8.99826ZM8.9998 2H0.99974C0.448136 2.00168 0.00135743 2.44846 -0.000244141 3.00008V11C0.00135743 11.5517 0.448136 11.9984 0.99974 12H8.9998C9.55141 11.9984 9.99819 11.5517 9.99979 11V3.00008C9.99819 2.44846 9.55141 2.00168 8.9998 2Z" fill="#636ACC"/>
+</g>
+</g>
+<path id="Fill 4" fill-rule="evenodd" clip-rule="evenodd" d="M2.00025 5.99998H8.00035V5H2.00025V5.99998ZM2.00015 9.00008H8.00025V8.0001H2.00015V9.00008Z" fill="#636ACC"/>
+<path id="Fill 5" fill-rule="evenodd" clip-rule="evenodd" d="M11.0002 0H3.00023C2.44861 0.00160157 2.00183 0.44838 2.00015 0.999984V1.50002H3.00023V1.00174L3.00191 0.999984H10.9985L11.0002 1.00174V8.99829L10.9985 9.00005H10.5003V10H11.0002C11.5518 9.99843 11.9986 9.55165 12.0002 9.00005V0.999984C11.9986 0.44838 11.5518 0.00160157 11.0002 0Z" fill="#636ACC"/>
+</g>
+</svg>

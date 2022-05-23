@@ -1,0 +1,240 @@
+10:22:08.996: CPU Name: AMD Ryzen 7 4800H with Radeon Graphics
+10:22:08.996: CPU Speed: 2900.000MHz
+10:22:09.013: Physical Cores: 8, Logical Cores: 16
+10:22:09.013: Physical Memory: 15429MB Total, 13394MB Free
+10:22:09.013: Kernel Version: Linux 5.17.8-artix1-1
+10:22:09.013: Distribution: "Artix Linux" 20220123
+10:22:09.013: Session Type: tty
+10:22:09.013: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:22:09.015: Qt Version: 5.15.4 (runtime), 5.15.3 (compiled)
+10:22:09.015: Portable mode: false
+10:22:09.049: OBS 27.2.4-1 (linux)
+10:22:09.049: ---------------------------------
+10:22:09.049: ---------------------------------
+10:22:09.049: audio settings reset:
+10:22:09.049: 	samples per sec: 48000
+10:22:09.049: 	speakers:        2
+10:22:09.053: ---------------------------------
+10:22:09.053: Initializing OpenGL...
+10:22:09.117: Loading up OpenGL on adapter AMD AMD RENOIR (LLVM 13.0.1, DRM 3.44, 5.17.8-artix1-1)
+10:22:09.117: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.0.3, shading language 4.60
+10:22:09.128: ---------------------------------
+10:22:09.128: video settings reset:
+10:22:09.128: 	base resolution:   1920x1080
+10:22:09.128: 	output resolution: 1920x1080
+10:22:09.128: 	downscale filter:  Bicubic
+10:22:09.128: 	fps:               60/1
+10:22:09.128: 	format:            NV12
+10:22:09.128: 	YUV mode:          709/Partial
+10:22:09.128: NV12 texture support not available
+10:22:09.135: Audio monitoring device:
+10:22:09.135: 	name: Default
+10:22:09.135: 	id: default
+10:22:09.135: ---------------------------------
+10:22:09.137: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:22:09.139: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+10:22:09.210: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:22:09.210: No blackmagic support
+10:22:09.223: v4l2loopback not installed, virtual camera disabled
+10:22:09.236: NVENC supported
+10:22:09.236: FFMPEG VAAPI supported
+10:22:09.249: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+10:22:09.249: 
+10:22:09.249: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+10:22:09.251: ---------------------------------
+10:22:09.251:   Loaded Modules:
+10:22:09.251:     text-freetype2.so
+10:22:09.251:     rtmp-services.so
+10:22:09.251:     obs-x264.so
+10:22:09.251:     obs-transitions.so
+10:22:09.251:     obs-outputs.so
+10:22:09.251:     obs-libfdk.so
+10:22:09.251:     obs-filters.so
+10:22:09.251:     obs-ffmpeg.so
+10:22:09.251:     linux-v4l2.so
+10:22:09.251:     linux-pulseaudio.so
+10:22:09.251:     linux-jack.so
+10:22:09.251:     linux-decklink.so
+10:22:09.251:     linux-capture.so
+10:22:09.251:     linux-alsa.so
+10:22:09.251:     image-source.so
+10:22:09.251:     frontend-tools.so
+10:22:09.251:     decklink-ouput-ui.so
+10:22:09.251:     decklink-captions.so
+10:22:09.251: ---------------------------------
+10:22:09.251: ==== Startup complete ===============================================
+10:22:09.282: All scene data cleared
+10:22:09.282: ------------------------------------------------
+10:22:09.284: xshm-input: Geometry 1920x1080 @ 0,0
+10:22:09.287: v4l2-input: Start capture from /dev/video0
+10:22:09.398: v4l2-input: Input: 0
+10:22:09.417: v4l2-input: Resolution: 1280x720
+10:22:09.417: v4l2-input: Pixelformat: MJPG
+10:22:09.417: v4l2-input: Linesize: 0 Bytes
+10:22:09.417: v4l2-input: Framerate: 30.00 fps
+10:22:09.423: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+10:22:09.430: Switched to scene 'Scene'
+10:22:09.452: ------------------------------------------------
+10:22:09.452: Loaded scenes:
+10:22:09.452: - scene 'Scene':
+10:22:09.453:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+10:22:09.453:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+10:22:09.453:     - source: 'Screen Capture (XSHM)' (xshm_input)
+10:22:09.453: ------------------------------------------------
+10:22:09.862: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:09.862: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:22:09.862: 	class: obs
+10:22:09.862: 	Bit depth: 24
+10:22:09.862: 	Found proper GLXFBConfig (in 288): yes
+10:22:09.862: 
+10:22:15.365: ---------------------------------
+10:22:15.365: [NVENC encoder: 'simple_h264_recording'] settings:
+10:22:15.365: 	rate_control: CQP
+10:22:15.365: 	bitrate:      0
+10:22:15.365: 	cqp:          23
+10:22:15.365: 	keyint:       250
+10:22:15.365: 	preset:       hq
+10:22:15.365: 	profile:      high
+10:22:15.365: 	width:        1920
+10:22:15.365: 	height:       1080
+10:22:15.365: 	2-pass:       false
+10:22:15.365: 	b-frames:     2
+10:22:15.365: 	psycho-aq:    1
+10:22:15.365: 	GPU:          0
+10:22:15.365: 
+10:22:15.629: libfdk_aac encoder created
+10:22:15.630: libfdk_aac bitrate: 192, channels: 2
+10:22:15.630: ==== Recording Start ===============================================
+10:22:15.630: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/xrenne/2022-05-23 10-22-15.mkv'...
+10:22:23.121: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:23.121: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:22:23.121: 	class: obs
+10:22:23.121: 	Bit depth: 24
+10:22:23.121: 	Found proper GLXFBConfig (in 288): yes
+10:22:23.121: 
+10:28:55.539: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:28:55.539: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:28:55.539: 	class: obs
+10:28:55.539: 	Bit depth: 24
+10:28:55.539: 	Found proper GLXFBConfig (in 288): yes
+10:28:55.539: 
+10:28:56.085: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:28:56.085: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:28:56.085: 	class: obs
+10:28:56.085: 	Bit depth: 24
+10:28:56.085: 	Found proper GLXFBConfig (in 288): yes
+10:28:56.085: 
+10:29:19.353: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:19.353: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:19.353: 	class: obs
+10:29:19.353: 	Bit depth: 24
+10:29:19.353: 	Found proper GLXFBConfig (in 288): yes
+10:29:19.353: 
+10:29:19.853: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:19.853: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:19.853: 	class: obs
+10:29:19.853: 	Bit depth: 24
+10:29:19.853: 	Found proper GLXFBConfig (in 288): yes
+10:29:19.853: 
+10:29:19.868: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:19.868: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:19.868: 	class: obs
+10:29:19.868: 	Bit depth: 24
+10:29:19.868: 	Found proper GLXFBConfig (in 288): yes
+10:29:19.868: 
+10:29:21.002: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:21.002: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:21.002: 	class: obs
+10:29:21.002: 	Bit depth: 24
+10:29:21.002: 	Found proper GLXFBConfig (in 288): yes
+10:29:21.002: 
+10:29:21.885: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:21.885: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:21.885: 	class: obs
+10:29:21.885: 	Bit depth: 24
+10:29:21.885: 	Found proper GLXFBConfig (in 288): yes
+10:29:21.885: 
+10:29:22.319: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:22.319: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:22.319: 	class: obs
+10:29:22.319: 	Bit depth: 24
+10:29:22.319: 	Found proper GLXFBConfig (in 288): yes
+10:29:22.319: 
+10:29:22.518: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:22.518: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:22.518: 	class: obs
+10:29:22.518: 	Bit depth: 24
+10:29:22.518: 	Found proper GLXFBConfig (in 288): yes
+10:29:22.518: 
+10:29:22.686: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:22.686: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:22.686: 	class: obs
+10:29:22.686: 	Bit depth: 24
+10:29:22.686: 	Found proper GLXFBConfig (in 288): yes
+10:29:22.686: 
+10:29:22.701: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:22.701: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:22.701: 	class: obs
+10:29:22.701: 	Bit depth: 24
+10:29:22.701: 	Found proper GLXFBConfig (in 288): yes
+10:29:22.701: 
+10:29:22.853: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:22.853: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:22.853: 	class: obs
+10:29:22.853: 	Bit depth: 24
+10:29:22.853: 	Found proper GLXFBConfig (in 288): yes
+10:29:22.853: 
+10:29:23.320: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:23.320: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:23.320: 	class: obs
+10:29:23.320: 	Bit depth: 24
+10:29:23.320: 	Found proper GLXFBConfig (in 288): yes
+10:29:23.320: 
+10:29:40.571: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:29:40.571: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:29:40.571: 	class: obs
+10:29:40.571: 	Bit depth: 24
+10:29:40.571: 	Found proper GLXFBConfig (in 288): yes
+10:29:40.571: 
+10:31:46.901: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:31:46.901: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:31:46.901: 	class: obs
+10:31:46.901: 	Bit depth: 24
+10:31:46.901: 	Found proper GLXFBConfig (in 288): yes
+10:31:46.901: 
+10:31:49.385: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:31:49.385: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:31:49.385: 	class: obs
+10:31:49.385: 	Bit depth: 24
+10:31:49.385: 	Found proper GLXFBConfig (in 288): yes
+10:31:49.385: 
+10:31:56.819: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:31:56.819: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:31:56.819: 	class: obs
+10:31:56.819: 	Bit depth: 24
+10:31:56.819: 	Found proper GLXFBConfig (in 288): yes
+10:31:56.819: 
+10:31:59.335: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:31:59.335: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:31:59.335: 	class: obs
+10:31:59.335: 	Bit depth: 24
+10:31:59.335: 	Found proper GLXFBConfig (in 288): yes
+10:31:59.335: 
+10:32:05.968: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:32:05.968: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:32:05.968: 	class: obs
+10:32:05.968: 	Bit depth: 24
+10:32:05.968: 	Found proper GLXFBConfig (in 288): yes
+10:32:05.968: 
+10:32:09.067: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:32:09.067: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:32:09.067: 	class: obs
+10:32:09.067: 	Bit depth: 24
+10:32:09.067: 	Found proper GLXFBConfig (in 288): yes
+10:32:09.067: 
+10:32:10.452: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:32:10.452: 	title: OBS 27.2.4-1 (linux) - Profile: Untitled - Scenes: Untitled
+10:32:10.452: 	class: obs
+10:32:10.452: 	Bit depth: 24
+10:32:10.452: 	Found proper GLXFBConfig (in 288): yes
+10:32:10.452: 

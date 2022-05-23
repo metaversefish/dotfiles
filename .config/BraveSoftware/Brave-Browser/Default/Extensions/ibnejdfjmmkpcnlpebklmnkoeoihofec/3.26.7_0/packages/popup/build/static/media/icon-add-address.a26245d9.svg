@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-5">
+            <g id="语言" fill="#515060">
+                <path d="M9.5,0 C14.7467051,0 19,4.25329488 19,9.5 C19,14.7467051 14.7467051,19 9.5,19 C4.25329488,19 0,14.7467051 0,9.5 C0,4.25329488 4.25329488,0 9.5,0 Z M9.5,2 C5.35786438,2 2,5.35786438 2,9.5 C2,13.6421356 5.35786438,17 9.5,17 C13.6421356,17 17,13.6421356 17,9.5 C17,5.35786438 13.6421356,2 9.5,2 Z" id="Combined-Shape"></path>
+            </g>
+            <line x1="4.5" y1="9" x2="14.5" y2="9" id="路径-4" stroke="#A5A4AC" stroke-width="1.2"></line>
+            <line x1="4.5" y1="9.5" x2="14.5" y2="9.5" id="路径-4备份" stroke="#A5A4AC" stroke-width="1.2" transform="translate(9.500000, 9.500000) rotate(90.000000) translate(-9.500000, -9.500000) "></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+{
+   "background": {
+      "page": "/index.html?page=background",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/icons/128.png",
+         "16": "assets/icons/16.png",
+         "32": "assets/icons/32.png",
+         "48": "assets/icons/48.png",
+         "64": "assets/icons/64.png"
+      },
+      "default_popup": "/index.html?page=popup",
+      "default_title": "SwagButton"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "browser-api-content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' ; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_manifest_description__",
+   "icons": {
+      "128": "assets/icons/128.png",
+      "16": "assets/icons/16.png",
+      "32": "assets/icons/32.png",
+      "48": "assets/icons/48.png",
+      "64": "assets/icons/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/jnUnaQ0EtFLazwaY0Ww2+AsPNt+bSG9mhPgUCX3f93nrelzT9b1bpbgP1y9vx8eijjDTTQOB/OMSk7BZHRcmErmTehAC9tDlvGnZtGMRGDI/hHWWLK7U5aVr9GMZqYHe9OS8r3Vm9ZZm4Ui8/FPN/MciOyaMLYuo0NrgVkyqCwIDAQAB",
+   "manifest_version": 2,
+   "name": "SwagButton",
+   "optional_permissions": [ "notifications" ],
+   "permissions": [ "tabs", "alarms", "storage", "cookies", "webRequest", "webNavigation", "http://*/", "https://*/", "management", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "400.10.0.1306",
+   "version_name": "10.10.0.1306",
+   "web_accessible_resources": [ "assets/icons/*", "assets/images/*", "assets/fonts/*", "assets/redesign/*", "injections/*" ]
+}

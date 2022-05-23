@@ -1,0 +1,89 @@
+#x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer; }
+
+.hidden {
+  display: none !important; }
+
+a {
+  cursor: pointer; }
+
+#slider {
+  position: fixed;
+  width: 375px;
+  z-index: 2147483647;
+  background: white;
+  line-height: 1;
+  transition: right .75s ease;
+  right: -400px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 12px;
+  color: #7b7b7b; }
+  #slider.slide {
+    right: 10px; }
+  #slider #main-content {
+    display: flex;
+    height: 100px; }
+  #slider #logo-container {
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 70px; }
+  #slider #interaction {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  #slider #cta {
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    min-width: 170px;
+    max-width: 180px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #7A68D6;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none; }
+    #slider #cta span {
+      display: block;
+      font-size: 12px; }
+    #slider #cta.tall {
+      padding: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+    #slider #cta.no-and {
+      margin-bottom: 5px; }
+      #slider #cta.no-and span {
+        font-weight: normal;
+        margin-top: 6px; }
+    #slider #cta.activated {
+      cursor: not-allowed;
+      background: white;
+      color: #7A68D6;
+      border: solid 1px #7A68D6; }
+  #slider #and, #slider #interaction .dismiss {
+    margin-top: 5px; }
+  #slider #interaction .dismiss {
+    color: #AAAAAA;
+    text-decoration: underline; }
+  #slider #and b {
+    color: black; }
+
+#slider {
+  top: 10px; }
+  #slider #logo-container #logo {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }
