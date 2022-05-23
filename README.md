@@ -1,3 +1,7 @@
-# My ARTIX/ARCH Rice
+# My ARTIX/ARCH dotfiles
 
-Still learning how to make a rice :)
+These are my dotfiles. They will be deployed when called by [DLARBS](https://github.com/metaversefish/DLARBS)
+
+## Notes
+
+These files are not updated much from [Luke's build](https://github.com/LukeSmithxyz/voidrice)
