@@ -37,5 +37,5 @@ If you can't access st (Terminal) using `mod+enter` then you might need to follo
 + Restart your system and access as root
 + type `nvim /etc/default/locale`
 + and change **LANG=en_XX** to **LANG=en_US-UTF-8**
-+ same as above change it again on nvim /etc/locale.conf
++ same as above change it again on `nvim /etc/locale.conf`
 + and `reboot`
