@@ -1,9 +1,0 @@
-2022/05/23-10:21:25.541 3f1 Reusing MANIFEST /home/xrenne/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/05/23-10:21:25.541 3f1 Recovering log #4
-2022/05/23-10:21:25.541 3f1 Reusing old log /home/xrenne/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000004.log 
-2022/05/23-10:32:25.034 420 Level-0 table #8: started
-2022/05/23-10:32:25.041 420 Level-0 table #8: 87977 bytes OK
-2022/05/23-10:32:25.043 420 Delete type=0 #4
-2022/05/23-10:41:30.145 4e7a Level-0 table #10: started
-2022/05/23-10:41:30.148 4e7a Level-0 table #10: 84397 bytes OK
-2022/05/23-10:41:30.150 4e7a Delete type=0 #7
