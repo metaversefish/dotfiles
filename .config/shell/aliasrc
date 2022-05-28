@@ -16,7 +16,10 @@ alias \
 	cp="cp -iv" \
 	mv="mv -iv" \
 	rm="rm -vI" \
+	rmf="rm -rf" \
 	bc="bc -ql" \
+	mpa="mpv --shuffle --no-video" \
+	mpp="mpa $HOME/Music/" \
 	mkd="mkdir -pv" \
 	yt="yt-dlp --embed-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
@@ -25,28 +28,27 @@ alias \
 # Colorize commands when possible.
 alias \
 	ls="ls -hN --color=auto --group-directories-first" \
+	la="ls -a" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
-	ccat="highlight --out-format=ansi" \
+	#ccat="highlight --out-format=ansi" \
 	ip="ip -color=auto"
 
 # These common commands are just too long! Abbreviate them.
 alias \
 	ka="killall" \
 	g="git" \
-	trem="transmission-remote" \
 	YT="youtube-viewer" \
 	sdn="shutdown -h now" \
-	e="$EDITOR" \
 	v="$EDITOR" \
-	p="pacman" \
-	xi="sudo xbps-install" \
-	xr="sudo xbps-remove -R" \
-	xq="xbps-query" \
+	up="pacman -Syyu" \
+	#xi="sudo xbps-install" \
+	#xr="sudo xbps-remove -R" \
+	#xq="xbps-query" \
 	z="zathura"
 
 alias \
 	lf="lfub" \
-	magit="nvim -c MagitOnly" \
-	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
-	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
+	#magit="nvim -c MagitOnly" \
+	#ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
+	#weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
