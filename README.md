@@ -25,7 +25,7 @@ sudo pacman -Rcns kde-applications plasma sddm
 ```
 sudo pacman -Rcns xfce gnome sddm
 ```
-### CINAMON
+### CINNAMON
 ```
 sudo pacman -Rcns cinnamon gnome sddm
 ```
