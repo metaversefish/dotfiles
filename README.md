@@ -9,30 +9,35 @@ These files are not updated much from [Luke's build](https://github.com/LukeSmit
 ## Installation
 
 ```
-git clone https://github.com/metaversefish/DDLARBS.git
-cd DLARBS
-sh dlarbs.sh
+git clone https://github.com/metaversefish/DLARBS.git
+cd DLARBS && sudo sh dlarbs.sh
 ```
 
 ## Removing Your default DM/WM
 
 You might need to remove all of your DM/WM first before rebooting
 
-### LXQT
-```
-sudo pacman -Rcns lxqt
-sudo pacman -Rcns sddm
-```
 ### KDE
 ```
-sudo pacman -Rcns kde
-sudo pacman -Rcns sddm
+sudo pacman -Rcns kde-applications plasma sddm
+```
+### XFCE
+```
+sudo pacman -Rcns xfce gnome sddm
+```
+### CINAMON
+```
+sudo pacman -Rcns cinnamon gnome sddm
+```
+### MATE
+```
+sudo pacman -Rcns mate gnome sddm
 ```
 **And so on**
 
 ## Known Error
 
-If you can't access st (Terminal) using `mod+enter` then you might need to follow these steps :-
+If you can't access st **(Terminal)** using `mod+enter` then you might need to follow these steps :-
 
 + Restart your system and access as root
 + type `nvim /etc/default/locale`
