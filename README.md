@@ -11,7 +11,7 @@ It should look something like this if everything is done correctly
 
 These files are not updated much from [Luke's build](https://github.com/LukeSmithxyz/voidrice)
 
-Capslock is changed with Control
+Capslock is changed to Control
 
 - What does this offer? :-
 	- zsh (shell)
