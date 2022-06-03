@@ -3,6 +3,10 @@
 These are my dotfiles. They will be deployed when called by [Dlarbs](https://github.com/metaversefish/DLARBS).
 If you need some help you can click on the upperight corner "?" or press `mod+f2` (Mod = Win key) if this doesn't appear please check [IMPORTANT](https://github.com/metaversefish/dotfiles#important)
 
+It should look something like this if everything is done correctly
+
+![image](https://imgur.com/X1dRe83.png)
+
 ## Notes
 
 These files are not updated much from [Luke's build](https://github.com/LukeSmithxyz/voidrice)
