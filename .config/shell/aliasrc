@@ -17,7 +17,9 @@ alias \
 	mv="mv -iv" \
 	rm="rm -vI" \
 	rmf="rm -rf" \
-	bc="bc -ql" \
+	acq="asciiquarium" \
+	rest="unimatrix -fs 96 -c magenta" \
+	df="df -h" \
 	mpa="mpv --shuffle --no-video" \
 	mpp="mpa $HOME/Music/" \
 	mkd="mkdir -pv" \
